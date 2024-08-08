@@ -16,6 +16,10 @@ if (!PUBLISHABLE_KEY) {
 }
 const router = createBrowserRouter([
   {
+    path:'/',
+    element:<Home/>
+  }, 
+  {
     element: <App/>,
     children : [
     {
